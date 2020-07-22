@@ -1,0 +1,47 @@
+.germany_flag {
+    width: 450px;
+    height: 300px;
+    margin-top: 30px;
+}
+.black{
+    width: 400px;
+    height: 90px;
+    background: #000;
+}
+.red{
+    width: 400px;
+    height: 90px;
+    background: #ff0013;
+}
+.yellow{
+    width: 400px;
+    height: 90px;
+    background: #ffc940;
+}
+
+.indian_flag {
+    width: 450px;
+    height: 300px;
+    margin-top: 50px;
+}
+.brown{
+    width: 400px;
+    height: 90px;
+    background: #ff9446;
+}
+.white {
+    width: 400px;
+    height: 90px;
+    background: #ffffff url(./india\ Flag\ logo.png) no-repeat center center /104px;
+}
+.green{
+    width: 400px;
+    height: 90px;
+    background: #008827;
+}
+.name h4 {
+    font-size: 20px;
+}
+body{
+    margin-left: 100px;
+}
