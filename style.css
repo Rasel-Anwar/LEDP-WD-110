@@ -1,8 +1,14 @@
-.germany_flag {
-    width: 450px;
-    height: 300px;
-    margin-top: 30px;
+.germany_flag, .indian_flag {
+    float: left;
+    width: 410px;
+    height: 400px;
+    overflow: hidden;
 }
+.name h4 {
+    font-size: 20px;
+}
+
+/*-- Start Germany Flag --*/
 .black{
     width: 400px;
     height: 90px;
@@ -18,12 +24,9 @@
     height: 90px;
     background: #ffc940;
 }
+/*-- End Germany Flag --*/
 
-.indian_flag {
-    width: 450px;
-    height: 300px;
-    margin-top: 50px;
-}
+/*-- Start India Flag --*/
 .brown{
     width: 400px;
     height: 90px;
@@ -39,9 +42,32 @@
     height: 90px;
     background: #008827;
 }
-.name h4 {
-    font-size: 20px;
+/*-- End India Flag --*/
+
+
+/*-- Start Navigation Bar --*/
+.navigation_bar {
+    float: right;
+    margin: 80px 35px;
 }
-body{
-    margin-left: 100px;
+.navigation_bar ul{}
+.navigation_bar ul li {
+    display: inline-block;
 }
+.navigation_bar ul li a {
+    padding: 10px 20px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 500;
+    border: 1px solid #ff8f52;
+    text-align: center;
+    background: #ff8f52;
+    color: #fff;
+    border-radius: 5px;
+    transition: .4s;
+}
+.navigation_bar ul li a:hover{
+    background: #008936;
+}
+/*-- End Navigation Bar --*/
